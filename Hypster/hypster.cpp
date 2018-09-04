@@ -56,7 +56,7 @@ int main(int argc, char* argv[]) {
 
 	cerr << "\n" << upper;
 	cerr << "\nInput: " << fastaFile << endl
-		<< "Nmer:  " << nmerSize << endl;
+		 << "Nmer:  " << nmerSize << endl;
 
 	string genome = parseFasta(fastaFile);
 
